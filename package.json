@@ -1,0 +1,38 @@
+{
+  "name": "image-comparison-slider",
+  "version": "1.0.0",
+  "description": "Compare two images in a slider with mouse move effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo-build": "rollup -c",
+    "demo-build-prod": "NODE_ENV=production ./node_modules/.bin/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumedeplanque/image-comparison-slider.git"
+  },
+  "author": "Guillaume Deplanque (@AdFab Connect)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumedeplanque/image-comparison-slider/issues"
+  },
+  "homepage": "https://github.com/guillaumedeplanque/image-comparison-slider#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "cssnano": "^3.9.1",
+    "npm-run-all": "^3.1.2",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "rollup": "^0.39.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-postcss": "^0.2.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.0.0"
+  }
+}

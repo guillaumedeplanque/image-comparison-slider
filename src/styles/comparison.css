@@ -1,0 +1,22 @@
+.comparison-slider {
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+.comparison-slider div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comparison-slider div.before {
+  background-position: left center;
+  left: 0;
+  width: 50%;
+}
+.comparison-slider div.after {
+  background-position: right center;
+  right: 0;
+  width: 50%;
+}
