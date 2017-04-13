@@ -39,7 +39,6 @@
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "connect": "^3.6.0",
     "cssnano": "^3.9.1",
     "del": "^2.2.2",
     "fs": "0.0.1-security",
@@ -47,7 +46,6 @@
     "postcss-cssnext": "^2.9.0",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
-    "rollup": "^0.39.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-eslint": "^3.0.0",
@@ -55,10 +53,12 @@
     "rollup-plugin-postcss": "^0.2.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.1",
-    "rollup-watch": "^3.0.0",
-    "serve-static": "^1.12.1"
+    "rollup-watch": "^3.0.0"
   },
   "dependencies": {
-    "babel-runtime": "^6.23.0"
+    "babel-runtime": "^6.23.0",
+    "connect": "^3.6.0",
+    "rollup": "^0.39.0",
+    "serve-static": "^1.12.1"
   }
 }
