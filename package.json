@@ -17,8 +17,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo-build": "rollup -c",
-    "demo-build-prod": "NODE_ENV=production ./node_modules/.bin/rollup -c",
-    "build": "node tools/build"
+    "demo-build-prod": "NODE_ENV=production rollup -c",
+    "build": "node tools/build",
+    "start": "npm run demo-build & node demo/server.js"
   },
   "repository": {
     "type": "git",
