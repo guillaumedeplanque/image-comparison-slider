@@ -1,3 +1,5 @@
+import '../../styles/comparison.css';
+
 export default class Comparison {
 
   constructor() {
