@@ -7,6 +7,8 @@
 [![devDependency Status](https://david-dm.org/guillaumedeplanque/image-comparison-slider/dev-status.svg?theme=shields.io)](https://david-dm.org/guillaumedeplanque/image-comparison-slider#info=devDependencies)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/guillaumedeplanque/image-comparison-slider/master/LICENSE)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Compare two images in a slider with mouse move effect
 
 ![Two kittens !](http://res.cloudinary.com/krotoku/image/upload/v1492092439/image-comparison-slider.png)
