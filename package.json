@@ -1,6 +1,6 @@
 {
   "name": "image-comparison-slider",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Compare two images in a slider with mouse move effect",
   "main": "index.js",
   "jsnext:main": "index.es.js",
